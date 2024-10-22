@@ -4,14 +4,14 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="948ebe3e0aca40ff8cb2c9d18f6a3124" Name="Diagram1" ZoomLevel="88">
-        <EntityTypeShape EntityType="MyStoreModel.Category" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="MyStoreModel.Customer" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
-        <EntityTypeShape EntityType="MyStoreModel.Order" Width="1.5" PointX="5.375" PointY="4" IsExpanded="true" />
-        <EntityTypeShape EntityType="MyStoreModel.OrderDetail" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="MyStoreModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="MyStoreModel.sysdiagram" Width="1.5" PointX="7.375" PointY="1.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="MyStoreModel.User" Width="1.5" PointX="0.625" PointY="4.125" IsExpanded="true" />
+      <Diagram DiagramId="f7044a2231a942b2a6b1cc45b403d170" Name="Diagram1">
+        <EntityTypeShape EntityType="MyStoreModel.Category" Width="1.5" PointX="0.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyStoreModel.Customer" Width="1.5" PointX="2.875" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyStoreModel.Order" Width="1.5" PointX="5.125" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyStoreModel.OrderDetail" Width="1.5" PointX="5.25" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyStoreModel.Product" Width="1.5" PointX="3" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyStoreModel.sysdiagrams" Width="1.5" PointX="7.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyStoreModel.User" Width="1.5" PointX="0.5" PointY="3.75" IsExpanded="true" />
         <AssociationConnector Association="MyStoreModel.FK_Pro_Category" ManuallyRouted="false" />
         <AssociationConnector Association="MyStoreModel.FK__Order__CustomerI__412EB0B6" ManuallyRouted="false" />
         <AssociationConnector Association="MyStoreModel.FK_User_Customer" ManuallyRouted="false" />

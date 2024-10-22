@@ -17,7 +17,7 @@ namespace _23DH114708_MyStore.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Product()
         {
-            this.OrderDetails = new HashSet<OrderDetail>();
+            this.OrderDetail = new HashSet<OrderDetail>();
         }
     
         public int ProductID { get; set; }
@@ -29,6 +29,6 @@ namespace _23DH114708_MyStore.Models
     
         public virtual Category Category { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<OrderDetail> OrderDetails { get; set; }
+        public virtual ICollection<OrderDetail> OrderDetail { get; set; }
     }
 }
